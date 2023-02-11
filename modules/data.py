@@ -1,0 +1,13 @@
+controls = None
+level = 0
+color_choose_finished = 0
+controllers_choose_finished = 0
+final = 1
+start = 0
+achivments = [0,0,0]
+coin = [0,0]
+deaths = 0
+jumping = 0
+jump_cooldown = 0
+endscreen = 0
+achivments_scr = 0
