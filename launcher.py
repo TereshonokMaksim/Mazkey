@@ -1,9 +1,9 @@
 import turtle
-import screen
-import buttons
-import turtles
-import chooses
-import data
+import modules.screen as screen
+import modules.buttons as buttons
+import modules.turtles as turtles
+import modules.chooses as chooses
+import modules.data as data
 import time
 # import launcher
 if data.start != 1:
@@ -11,6 +11,3 @@ if data.start != 1:
     start = 1
 
 screen.screen.onclick(buttons.click_color_choose, add=True)
-
-print("test")
-turtle.mainloop()

@@ -1,10 +1,10 @@
-import turtles
-import screen
-import data
-import standart_settings
-import mazes.level_1 as lvl1
-import mazes.level_2 as lvl2
-import mazes.level_3 as lvl3
+import modules.turtles as turtles
+import modules.screen as screen
+import modules.data as data
+import modules.standart_settings as standart_settings
+import modules.mazes.level_1 as lvl1
+import modules.mazes.level_2 as lvl2
+import modules.mazes.level_3 as lvl3
 import time
 def controls():
     def hitboxes_scan():

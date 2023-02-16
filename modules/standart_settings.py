@@ -1,6 +1,6 @@
-import turtles
-import data
-import chooses
+import modules.turtles as turtles
+import modules.data as data
+import modules.chooses as chooses
 def rectangle(width,height,angle):
     turtles.t_mazeer.begin_fill()
     for i in range(2):

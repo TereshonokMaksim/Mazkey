@@ -1,6 +1,6 @@
-import turtles
-import data
-import standart_settings as stand
+import modules.turtles as turtles
+import modules.data as data
+import modules.standart_settings as stand
 def go(x,y):
     turtles.t_mazeer.pu()
     turtles.t_mazeer.goto(x,y)

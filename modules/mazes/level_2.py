@@ -1,8 +1,8 @@
-import turtles
-import data
-import standart_settings as stand
-import player_movement
-import mazes.level_3 as lvl3
+import modules.turtles as turtles
+import modules.data as data
+import modules.standart_settings as stand
+import modules.player_movement as player_movement
+import modules.mazes.level_3 as lvl3
 def go(x,y):
     turtles.t_mazeer.pu()
     turtles.t_mazeer.goto(x,y)

@@ -1,11 +1,11 @@
-import mazes.level_1 as lvl1
-import screen
-import turtles
-import data
-import chooses
-import player_movement
-import webbrowser
-import mazes.endscreen as endscr
+import modules.mazes.level_1 as lvl1
+import modules.screen as screen
+import modules.turtles as turtles
+import modules.data as data
+import modules.chooses as chooses
+import modules.player_movement as player_movement
+import webbrowser as webbrowser
+import modules.mazes.endscreen as endscr
 contin = False
 def click_color_choose(x,y):
     global contin

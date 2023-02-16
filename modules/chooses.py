@@ -1,4 +1,4 @@
-import turtles
+import modules.turtles as turtles
 def go(turt, x, y):
     turt.pu()
     turt.goto(x,y)
