@@ -6,7 +6,10 @@ def go(x,y):
     turtles.t_mazeer.pu()
     turtles.t_mazeer.goto(x,y)
     turtles.t_mazeer.pd()
-    #hehe no
+    
+def writ(text, font_size):
+    turtles.t_mazeer.write(text, align="center", font=["Verdana",font_size,"normal"])
+
 def level_one_draw():
     turtles.t_mazeer.color("lightgray")
     go(-200, -50)
@@ -27,6 +30,21 @@ def level_one_draw():
     turtles.t_mazeer.color("darkgreen")
     go(168,-13)
     stand.rectangle(14,34,-90)
+
+    # Update: V1.02
+
+    go(-55,-60)
+    turtles.t_mazeer.color("white")
+    stand.rectangle(240,100,-90)
+    turtles.t_mazeer.color("black")
+    go(70,-80)
+    writ("Бачишь у кінці зелений прямокутник?", 10)
+    go(70,-100)
+    writ("Звісно бачишь! Це - фініш!", 11)
+    go(70,-120)
+    writ("Твоя ціль - дістатися його!", 11)
+    go(70,-140)
+    writ("Удачі!", 15)
 
 
 

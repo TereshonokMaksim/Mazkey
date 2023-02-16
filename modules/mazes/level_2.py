@@ -8,6 +8,9 @@ def go(x,y):
     turtles.t_mazeer.goto(x,y)
     turtles.t_mazeer.pd()
 
+def writ(text, font_size):
+    turtles.t_mazeer.write(text, align="center", font=["Verdana",font_size,"normal"])
+    
 def level_two_draw():
     go(-200,-50)
     turtles.t_mazeer.color("lightgray")
@@ -50,6 +53,23 @@ def level_two_draw():
     go(-70,100)
     turtles.t_mazeer.color("lime")
     stand.rectangle(40,40,-90)
+
+    # Update: V1.02
+
+    go(-190, -60)
+    turtles.t_mazeer.color("white")
+    stand.rectangle(280, 100,-90)
+    turtles.t_mazeer.color("black")
+    go(-50, -80)
+    writ("Бачишь цей жовтий кружочок над тобою?",10)
+    go(-50, -100)
+    writ("Це - необхідний бонус!", 12)
+    go(-50,-120)
+    writ("Він відкриває двері (двері коричневі)", 10)
+    go(-50,-140)
+    writ("Щоб його зібрати - доторкнися  до нього", 9)
+
+
 
 def level_two_hitboxes():
     x = turtles.t_player.xcor()

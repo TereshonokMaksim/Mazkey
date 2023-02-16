@@ -75,13 +75,25 @@ def click_color_choose(x,y):
             webbrowser.open("https://github.com/TereshonokMaksim?tab=repositories")
         elif -100 < x < -20 and -40 < y < 40:
             turtles.turtle.Terminator()
-        elif 20 < x < 100 and -40 < y < 40:
-            data.endscreen = 0
-            turtles.t_mazeer.clear()
-            data.achivments_scr == 1
-            endscr.draw_achivments()
-    elif data.achivments_scr == 1:
-        if -250 < x < 170 and 200 < y < 250:
-            data.endscreen = 1
-            turtles.t_mazeer.clear()
-            endscr.endscreen() 
+        # elif 20 < x < 100 and -40 < y < 40:
+        #     data.achivments_scr == 1
+        #     data.endscreen = 0
+        #     data.test = 1
+        #     turtles.t_mazeer.clear()
+        #     endscr.draw_achivments()
+        #     player_movement.time.sleep(1)
+    # elif data.achivments_scr == 1:
+    #     if -250 < x < -170 and 200 < y < 250:
+    #         data.endscreen = 1
+    #         data.achivments_scr = 0
+    #         turtles.t_mazeer.clear()
+    #         endscr.endscreen()
+    #         print("1") 
+    #         data.test = 2
+        else:
+            print("0")
+    else:
+        print("Absolute 0")
+        print(data.achivments_scr, "achivment")
+        print(data.endscreen, "endscr")
+        print(data.test)

@@ -11,3 +11,4 @@ jumping = 0
 jump_cooldown = 0
 endscreen = 0
 achivments_scr = 0
+test = None

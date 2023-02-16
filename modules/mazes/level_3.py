@@ -42,17 +42,17 @@ def level_three_draw():
     turtles.t_mazeer.color("white")
     # ОБУЧЕНИЕ
     go(45,35)
-    stand.rectangle(120,100,90)
-    go(95,115)
+    stand.rectangle(150,100,90)
+    go(105,115)
     turtles.t_mazeer.color("black")
-    turtles.t_mazeer.write("Бачишь перешкоди?", align="center", font=["Verdana", 7, "normal"])
-    go(105,95)
-    turtles.t_mazeer.write("Їх треба перестрибнути!", align="center", font=["Verdana", 7, "normal"])
-    go(95,75)
-    turtles.t_mazeer.write("Щоб стрибати ", align="center", font=["Verdana",8,"normal"])
-    go(95,57)
-    turtles.t_mazeer.write(" натискайте на:", align="center", font=["Verdana",8,"normal"])
-    go(95,40)
+    turtles.t_mazeer.write("Бачишь перешкоди?", align="center", font=["Verdana", 8, "normal"])
+    go(120,95)
+    turtles.t_mazeer.write("Їх треба перестрибнути!", align="center", font=["Verdana", 8, "normal"])
+    go(115,75)
+    turtles.t_mazeer.write("Щоб стрибати ", align="center", font=["Verdana",9,"normal"])
+    go(115,57)
+    turtles.t_mazeer.write(" натискайте на:", align="center", font=["Verdana",9,"normal"])
+    go(115,40)
     if data.controls == "WASD":
         text = "Стрілки"
     elif data.controls == "arrows":
